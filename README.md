@@ -40,16 +40,18 @@ puis on nomme maintenant comme suit :
 EX : git tag (le nom) || git tag version1
 
     POUR SUPPRIMER LE NOM
-    git tag --delete (nom)
+        git tag --delete (nom)
 
     POUR PUSH LES TAGS SUR LE DEPOT DISTANT
 
-EX : git push --tags
+        EX : git push --tags
 
 ====> POUR RECUPERER LES MODIFICATION EFFECTUER SUR LE DEPOT DISTANT
 EX : git fetch
 APRES RECUPERATION ON ACTUALISE SUR LE DEPOT LOCAL AVEC LA COMMANDE SUIVANTE
 git pull
+L'option --rebase (permet de gerer les conflits automatiquement lors du pull du remote)
+git pull --rebase
 
 +++++++ TRAVAIL EN EQUIPE +++++++++++++
 
