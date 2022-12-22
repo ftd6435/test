@@ -69,7 +69,7 @@ PETIT RAPPEL SUR LES LIGNE DE COMMANDE DE BASE
 ====> POUR VERIFIER LES MODIFICATION AVEC PLUS DE PRECISION SUR L'AUTHEUR AU NIVEAU DE CHAQUE LIGNE DE CODE
 
                EX : git blame nomFichier.html || .css || .js etc...
-               
+
                 POUR REDUIRE LE NOMBRE DE LIGNE OU PRECISER
                         git blame -L 10,20 nomFichier.html (A partir de la ligne 10 a la ligne 20)
 
@@ -84,3 +84,13 @@ ON UTILISE LES STASH :
         git stash show numeroStash
       Qaund on revient sur la branche master, pour la reaffecter sa stash de MODIFICATION
         git stash pop numeroStash
+
+====> NOTION DE BRANCHE
+
+        Pour créée une branche
+            git branch nomBranch
+        Pour switcher sur la branche
+            git checkout nomBranch
+        Après modification [add, commit] pour pusher sur le depot distant
+        On essaie de créée la branche sur le remote et pusher en meme temps a la commande suivante
+            git push --set-upstream origin nomBranch
