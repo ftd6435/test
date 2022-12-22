@@ -94,3 +94,7 @@ ON UTILISE LES STASH :
         Après modification [add, commit] pour pusher sur le depot distant
         On essaie de créée la branche sur le remote et pusher en meme temps a la commande suivante
             git push --set-upstream origin nomBranch
+        Pour lister les branche local et celle du remote
+            git branch || git branch -a
+        Pour copier un commit sur une branche
+            git cherry-pick nomShawan (ou ID)
