@@ -96,5 +96,8 @@ ON UTILISE LES STASH :
             git push --set-upstream origin nomBranch
         Pour lister les branche local et celle du remote
             git branch || git branch -a
+        Pour mettre a jour un depot local a travers notre repository
+            git pull (Pour download les fichier de la branch main"
+            git pull nomBranch (Pour download la brnch parralère et lieu avec le repot local);
         Pour copier un commit sur une branche
             git cherry-pick nomShawan (ou ID)
