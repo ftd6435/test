@@ -36,6 +36,16 @@ PETIT RAPPEL SUR LES LIGNE DE COMMANDE DE BASE
 ====> POUR AFFICHER LES COMMITE
 
         ex : git log || git log -n (nombre de commit q'on desire afficher)
+        
+   
+=====> VOUS MODIFIER UN FICHIER PENDANT QUE VOUS VENEZ TOUT JUST DE COMMITER ET VEUX AJOUTER LA MODIFICATION SANS CHANGER LE COMMIT
+
+        EX : git add fileName.ext
+             git commit --amend
+             
+=====> VOUS SUPPRIMER QUELQUE CHOSE INTENTIONNELMENT DANS VOTRE Workspace local ET VEUX LE RECUPERER A TRAVER LE DERNIER COMMIT
+
+        EX : git reset --hard HEAD
 
 ====> POUR VOYAGER DANS L'HISTORIQUE DES COMMITES
 
